@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background: transparent;
+}
+
+body {
+    width: 100vw;
+}
+
+nav {
+    font-size: 18px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.carousel {
+    width: 70%;
+}
+/* Section Accueil */
+
+#accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;  
+    background-image: url('/assets/image/_LMP9896.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#accueil h1 {
+    font-size: 80px;
+    overflow-y: hidden;
+}
+
+/* Section PAGE CONTENT */
+
+#why-me {
+    width: 100vw;
+    min-height: 500px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+#products {
+    width: 100vw;
+    min-height: 500px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+#why-me h2, #products h2 {
+    overflow-y: hidden;
+    margin-bottom: 40px;
+}
+
+#products h3 {
+    overflow-y: hidden;
+    margin: 5px;
+}
+
+.why-me-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#textwhy {
+    width: 40%;
+    margin: 20px;
+}
+
+#textwhy h3 {
+    overflow-y: hidden;
+}
+
+.realisation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.cointainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-thumbnail {
+    margin: 20px;
+}
+
+.img-thumbnail:hover {
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.content {
+    width: 100vw;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content h2 {
+    overflow-y: hidden;
+    font-size: 40px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-size: 20px;
+    text-align: center;
+}
+
+table tr td {
+    padding: 20px;
+    font-size: 25px;
+}
+
+footer {
+    width: 100vw;
+    height: auto;
+    min-height: 100px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    overflow-y: hidden;
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .form-login {
+    width: 30%;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+.alert {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert h3 {
+    overflow-y: hidden;
+}
