@@ -52,7 +52,6 @@ nav ul li {
 
 #products {
     width: 100vw;
-    min-height: 500px;
     height: auto;
     text-align: center;
     padding: 15px;
@@ -102,6 +101,11 @@ nav ul li {
 
 .img-thumbnail {
     margin: 20px;
+    
+}
+
+a {
+    overflow-y: hidden;
 }
 
 .img-thumbnail:hover {
@@ -166,7 +170,8 @@ h4 {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    min-height: 300px;
 }
 
 .container .form-login {
@@ -193,8 +198,20 @@ h4 {
 }
 
 
+
 @media screen and (max-width: 1350px) {
     .content {
+        flex-direction: column;
+    }
+
+    .why-me-content {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
         flex-direction: column;
     }
     
