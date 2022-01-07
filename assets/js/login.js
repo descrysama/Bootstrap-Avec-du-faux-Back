@@ -1,8 +1,8 @@
 let correct_pass = "azerty123";
 let correct_email = "test@test.fr";
 
-document.getElementById("login-form1").addEventListener('submit', function gang(){
-    gang.preventDefault();
+document.getElementById("login-form1").addEventListener('submit', function(evt){
+    evt.preventDefault();
     let pass = document.getElementById("input-pass").value;
     let email = document.getElementById("input-email").value;
 
